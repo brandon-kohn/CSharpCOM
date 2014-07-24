@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1"
+  manifestVersion="1.0">
+  <assemblyIdentity
+        type="win32"
+        name="CSharpCOM"
+        version="1.0.0.0" />
+  <clrClass
+        clsid="{4E196599-F1C5-4447-84F4-E46FC1C16105}"
+        progid="CSharp.ExampleClass"
+        threadingModel="Both"
+        name="CSharp.ExampleClass" >
+  </clrClass>
+  <clrClass
+      clsid="{6712709D-8913-4911-8ABB-BFB4865D4E9F}"
+      progid="CSharp.ExampleClass2"
+      threadingModel="Both"
+      name="CSharp.ExampleClass2" >
+  </clrClass>
+  <clrClass
+      clsid="{9B8FAFEA-64EB-493f-95CB-B0B0EDEBADC2}"
+      progid="CSharp.CSharpFunctor"
+      threadingModel="Both"
+      name="CSharp.CSharpFunctor" >
+  </clrClass>  
+  <file name="CSharpCOM.dll">
+  </file>
+</assembly>
